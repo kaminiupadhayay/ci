@@ -1,0 +1,153 @@
+body{background-attachment: fixed;background-image: url(../images/salad.jpg);background-size: cover;height: 4500px;font-family: 'Chakra Petch', sans-serif;}
+
+body {color: orange}
+
+
+
+/*video section*/
+    #myVideo {
+    position: absolute;
+    top: 0px;
+    right: 0;
+    bottom: 0;
+
+    min-height: 100%;
+    min-width: 100%; 
+}
+
+.content {
+    position:relative;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+.aboutus{height: 300px;width: 100%;background-color:#003366;margin-top: 120px}
+.about{height: 80px;width: 280px;margin: auto; border: 2px solid orange;text-align: center;}
+.viewer{height: 300px;width: 100%; background: rgba(0, 0, 0, 0.5);}
+.main{height: 200px;width: 80%;margin: auto;margin-top: 20px;background-color:  #003366;text-align:center;border: 2px solid orange;top: 20px
+}
+.clients{height: 180px;width: 25%;float: left;}
+.events{height: 180px;width: 25%;float: left;}
+.awards{height: 180px;width: 25%;float: left;}
+.branches{height: 180px;width: 25%;float: left}
+
+
+
+.services{height: 600px;width: 100%;}
+.main_1{height: 360px;width: 80%;margin: auto;margin-top: 20px;background-color: #003366;
+text-align:center;border: 2px solid orange;top: 20px}
+.serve{height: 80px;width: 280px;margin: auto; margin-top: 10px;border: 2px solid orange;text-align: center;}
+.working_hrs{height: 440px;width: 100%;background-color: #ff9933;color: black}
+.imgs{height: 340px;width: 50%;float: left; }
+.imgs:hover{transform: translate(
+    30px,30px);}
+.imgs{height: 340px;width: 50%;float: left; transition: ease 2s}
+
+
+.txt{height: 324px;width: 50%;float: left;transition: ease 3s}
+.txt:hover{transform: scale(1.25,1.25);}
+.gallery{height: 700px;;width: 100%;background-color: #003366}
+.main_1{height: 400px;width: 80%;margin: auto;margin-top: 20px;background-color: #003366;text-align:center;
+  border: 2px solid orange;top: 20px
+}
+.name{height: 80px;width: 280px;margin: auto; border: 2px solid orange;text-align: center;}
+.imges{height: 600px;width: 80%;margin: auto;}
+.img1{height: 200px;width: 25%;float: left;}
+.img2{height: 200px;width: 25%;float: left;}
+.img3{height: 200px;width: 25%;float: left;}
+.img4{height: 200px;width: 25%;float: left;}
+.img5{height: 200px;width: 25%;float: left;}
+.img6{height: 200px;width: 25%;float: left;}
+.img7{height: 200px;width: 25%;float: left;}
+.img8{height: 200px;width: 25%;float: left;}
+
+
+.flip{
+      height: 200px;width: 200px;perspective: 1000px;background: transparent;
+
+    }
+    .flip_in
+    {transition: transform 0.8s;
+      position: relative;
+      transform-style: preserve-3d;
+      height: 100%;
+      width: 100% ;
+      float: left;
+      }
+    .first,.second
+    {height: 200px;width: 100%;position: absolute;
+      backface-visibility: hidden; }
+    .flip:hover .flip_in{
+      transform: rotateX(180deg);
+    }
+    .second{transform: rotateX(180deg);}
+
+
+
+.testimonial{height: 300px;width: 100%; background: rgba(0, 0, 0, 0.5);}
+.main_2{height: 280px;width: 80%;margin: auto;margin-top: 20px;background-color: #;
+text-align:center;border: 2px solid orange;top: 20px}
+.test{height: 80px;width: 280px;margin: auto; margin-top: 10px;border: 2px solid orange;text-align: center;}
+.team{height: 550px;width: 100%}
+.main_3{height: 530px;width: 80%;margin: auto;margin-top: 20px;background-color: #003366;
+text-align:center;border: 2px solid orange;top: 20px}
+.members{height: 80px;width: 280px;margin: auto; margin-top: 10px;border: 2px solid orange;text-align: center;}
+.gallery img:hover {
+  animation: gallery 0.5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes gallery {
+  0% { transform: translate(1px, 1px) rotate(0deg); }
+  10% { transform: translate(-1px, -2px) rotate(-1deg); }
+  20% { transform: translate(-3px, 0px) rotate(1deg); }
+  30% { transform: translate(3px, 2px) rotate(0deg); }
+  40% { transform: translate(1px, -1px) rotate(1deg); }
+  50% { transform: translate(-1px, 2px) rotate(-1deg); }
+  60% { transform: translate(-3px, 1px) rotate(0deg); }
+  70% { transform: translate(3px, 1px) rotate(-1deg); }
+  80% { transform: translate(-1px, -1px) rotate(1deg); }
+  90% { transform: translate(1px, 2px) rotate(0deg); }
+  100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+.mem1{height: 
+ 180px;width: 26%;float: left;margin-left: 120px}
+.mem2{height: 200px;width: 26%;float: left;}
+.mem3{height: 200px;width: 26%;float: left;}
+
+
+.footer{height: 440px;width: 100%;background-color: black;position:absolute;top: 4200px}
+
+
+
+
+
+.navbar-inverse{margin-top: 600px;    background-color: #28191975}
+.fb{height: 80px;width: 100px;border-radius: 50%}
+
+
+ 
+
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 50%;
+}
+
+.button:hover {
+  background-color: #00ffcc;
+}
